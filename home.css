@@ -169,3 +169,180 @@ footer{
 .noBorder{
     border:none;
 }
+@media screen and (max-width:1900px) {
+    body{
+        background-color:antiquewhite;
+    }
+    select{
+        width:300px;
+    }
+    .reselect{
+        width:600px;
+    }
+    #heading{
+        font-size:50px;
+        margin-left:6%
+    }
+    #logo>span{
+        margin-left:4%;
+        margin-top:3%
+    }
+}
+@media screen and (max-width:1700px) {
+    body{
+        background-color:rgb(241, 239, 151);
+    }
+    .reselect{
+        width:550px
+    }
+}
+@media screen and (max-width:1500px) {
+    body{
+        background-color:rgb(141, 246, 246);
+    }
+    #heading{
+        font-size:40px;
+    }
+    select{
+        width:200px;
+    }
+    .reselect{
+        width:550px
+    }
+}
+@media screen and (max-width:1300px) {
+    body{
+        background-color:rgb(196, 171, 230);
+    }
+    #logo>span{
+        margin-left: 6%;
+        margin-top: 4%;
+    }
+    select{
+        height: 60px;
+        width: 180px;
+    }
+    .reselect{
+        height:60px;
+        width:500px;
+    }
+    .tilecontainer{
+        width:40%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    body{
+        background-color:rgb(198, 234, 163);
+    }
+    #heading{
+        font-size:30px;
+        margin-left:5%;
+    }
+    select{
+        height: 60px;
+        width: 180px;
+    }
+    .reselect{
+        height:60px;
+        width:350px;
+    }
+    .tilecontainer{
+        width:40%;
+        margin-left: 9%;
+    }
+}
+@media screen and (max-width:1000px) {
+    body{
+        background-color:blanchedalmond
+    }
+    #heading{
+        font-size:30px;
+        margin-left:7%
+    }
+    #logo{
+        width:100px;
+        height:100px
+    }
+    #logo>span{
+        font-size:50px;
+        margin-left: 5%;
+        margin-top:4%
+    }
+    select{
+        font-size:20px;
+        width:500px;
+        height:40px;
+        margin-left:20px
+        
+    }
+    .reselect{
+        width:500px;
+        height:50px;
+        margin-top:10px;
+    }
+    .tilecontainer{
+        width:40%
+    }
+}
+@media screen and (max-width:800px){
+    body{
+        background-color:rgb(244, 228, 243)
+    }
+  #logo{
+    width: 122px;
+    height: 126px;
+  }
+  #logo>span{
+    font-size: 55px;
+    margin-top:7%;
+  }
+  #heading{
+    font-size:23px;
+    margin-left:15%
+  }
+  select{
+    width:500px;
+    height:40px;
+    font-size:15px;
+
+  }
+  .reselect{
+    width:500px;
+    height:40px;
+    margin-top:30px;
+  }
+  .tilecontainer{
+    width:100%;
+    box-shadow: 10px 6px 14px;
+  }
+}
+@media screen and (max-width:650px){
+    body{
+        background-color:rgb(213, 230, 188)
+    }
+    #logo{
+        height:80px;
+        width:100px;
+    }
+    #logo>span{
+        font-size:40px;
+        margin-left:9%;
+        margin-top:5%
+    }
+    #heading{
+        font-size:15px;
+        font-weight:bold;
+        margin-top:5%
+    }
+    select{
+        width:400px;
+        margin-left:-2%
+    }
+    .reselect{
+        width:400px;
+    }
+    .tilecontainer{
+        width:100%
+    }
